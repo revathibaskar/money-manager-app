@@ -1,0 +1,82 @@
+.ul-container {
+  list-style-type: none;
+}
+
+@media screen and (min-width:768px){
+  .ul-container{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.list-card-bal {
+  border: 2px solid #84cc16;
+  background-color: #ecfccb;
+  width: 30%;
+  height: 150px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .list-card-bal {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+.img-style {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.list-card-income {
+  border: 2px solid #06b6d4;
+  background-color: #cffafe;
+  width: 30%;
+  height: 150px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .list-card-income {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+.list-card-expenses {
+  border: 2px solid #7c3aed;
+  background-color: #ede9fe;
+  width: 30%;
+  height: 150px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .list-card-expenses {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
